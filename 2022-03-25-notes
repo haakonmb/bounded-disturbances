@@ -18,3 +18,10 @@ when the service isnt critical, but just nice to have
 fail fast and return default values instead
 
 
+3:
+Service Level Indicator
+add some metric p(99.duration10m) 
+< 100 ms turns it into SLO ( service level objective )
+
+Service level agreements might be a problematic internal metric due to punishments
+Service level objectives is a goal to shoot for instead
