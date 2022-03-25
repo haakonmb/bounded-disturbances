@@ -25,3 +25,8 @@ add some metric p(99.duration10m)
 
 Service level agreements might be a problematic internal metric due to punishments
 Service level objectives is a goal to shoot for instead
+
+there might be a conflict between SLO and user-feedback, that means contract/SLO is wrong.
+
+having a formal metric makes it easier on the engineers. It makes it an outside thing instead of internal to engineer.
+Then you can prioritize work when things go wrong. Either prioritize resiliency work or make requirements laxer.
