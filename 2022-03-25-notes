@@ -1,8 +1,20 @@
 2022-03-25
 
+1:
 exceptions are expensive, as opposed to catching them and retrying
 
 fixing underlying problem vs retry strategy?
 false dilemma, you can do both
 https://how.complexsystems.fail/
+
+when retrying, we assume the failure rate is independent
+it might not be
+failure is not as quick as success
+retry strategy - if problem is load-dependent might make problem worse
+
+2:
+when to use give up-strategy?
+when the service isnt critical, but just nice to have
+fail fast and return default values instead
+
 
