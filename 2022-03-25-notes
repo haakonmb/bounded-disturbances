@@ -1,0 +1,8 @@
+2022-03-25
+
+exceptions are expensive, as opposed to catching them and retrying
+
+fixing underlying problem vs retry strategy?
+false dilemma, you can do both
+https://how.complexsystems.fail/
+
